@@ -37,5 +37,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/<github_login>/student-converter:latest
-            ghcr.io/<github_login>/student-converter:${{ github.sha }}
+            ghcr.io/askinnakklevaar207/student-converter:latest
+            ghcr.io/askinnakklevaar207/student-converter:${{ github.sha }}
